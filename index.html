@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nerko+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <section id="loding">
+        <span class="loader"></span>
+    </section>
+
+
+    <section id="main-section">
+        <header class="img">
+            <img src="images/Mealify.image1.png" class=" w-100" alt="">
+        </header>
+
+        <nav class="navbar mx-auto col-md-6 col-lg-9  navbar-expand-lg p-1 rounded-4">
+            <div class="container">
+                <a class="navbar-brand text-light" href="#"> <img src="images/Mealify.image2.png" class="w-25 h-25"
+                        alt="">GAME
+                    REVIEWS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="mmorpg" class="nav-link active" href="#">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="shooter" class="nav-link" href="#">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="sailing" class="nav-link" href="#">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="permadeath" class="nav-link" href="#">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="superhero" class="nav-link" href="#">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="pixel" class="nav-link" href="#">PIXEL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <main class="main-games mt-5" id="card-game">
+            <div class="My-card  w-75  mx-auto">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="row-data">
+                </div>
+            </div>
+        </main>
+    </section>
+
+
+    <section id="details-page" class="d-none position-relative ">
+        <div class="details w-75 mx-auto">
+            <h2 class="desc mt-5 text-light">Details Game</h2>
+            <div class="row">
+                <div class="col-md-5 mt-4">
+                    <img id="img" src="" class="w-100" alt="">
+                </div>
+                <div class="col-md-7 text-light mt-4">
+                    <h3 class="d-inline">title : <h4 id="title" class="d-inline"></h4>
+                    </h3>
+                    <span class="d-block my-2">Category : <i id="Category"></i></span>
+                    <span class="d-block my-2">Platform : <i id="Platform"></i></span>
+                    <span class="d-block my-2">Status : <i id="Status"></i></span>
+                    <p id="desc" class="mb-3"></p>
+                    <a id="link" href="" target="_blank"><button class="btn btn-outline-warning text-light"> Show
+                            Game</button></a>
+                </div>
+            </div>
+            <img id="close" src="images/Mealify.image4.svg" class="position-absolute top-0 end-0 m-3" width="30" alt="">
+        </div>
+
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
